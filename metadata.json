@@ -1,0 +1,6 @@
+{
+  "name": "Orchestration shared library",
+  "version": "0.1",
+  "depends_on": ["shared", "auth", "theme"],
+  "init_after": []
+}
