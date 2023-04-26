@@ -47,8 +47,14 @@ class Module(module.ModuleModel):
             "orch_tool", "ORCHESTRATION",
             kind="holder",
             location="left",
+            permissions={
+                "permissions": ["orchestration"],
+                "recommended_roles": {
+                    "administration": {"admin": True, "editor": True, "viewer": True},
+                    "default": {"admin": True, "editor": True, "viewer": True},
+                }
+            }
         )
-
 
     def deinit(self):  # pylint: disable=R0201
         """ De-init module """
