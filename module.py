@@ -44,7 +44,7 @@ class Module(module.ModuleModel):
         self.descriptor.register_tool('ma', ma)
 
         theme.register_section(
-            "orch_tool", "ORCHESTRATION",
+            "engagements", "ENGAGEMENTS",
             kind="holder",
             location="left",
             permissions={
