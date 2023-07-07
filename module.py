@@ -48,7 +48,7 @@ class Module(module.ModuleModel):
             kind="holder",
             location="left",
             permissions={
-                "permissions": ["orchestration"],
+                "permissions": ["engagements"],
                 "recommended_roles": {
                     "administration": {"admin": True, "editor": True, "viewer": True},
                     "default": {"admin": True, "editor": True, "viewer": True},
